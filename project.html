@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 5 - Mini Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Part 1: Basics</a>
+    <a href="effects.html">Part 2: Effects</a>
+    <a href="dom.html">Part 3: DOM</a>
+    <a href="animations.html">Part 4: Animations</a>
+    <a href="project.html" class="active">Part 5: Mini Project</a>
+  </nav>
+
+  <main>
+    <h1>Part 5. Mini Project</h1>
+
+    <section>
+      <h2>Task 11. Image Gallery</h2>
+      <p>Thumbnails fade in. Click on a picture to enlarge it.</p>
+      <button id="hideThumbs">Fade out thumbnails</button>
+      <button id="showThumbs">Fade in thumbnails</button>
+      <br><br>
+      <div id="gallery">
+        <img src="images/img1.svg" alt="Picture 1">
+        <img src="images/img2.svg" alt="Picture 2">
+        <img src="images/img3.svg" alt="Picture 3">
+        <img src="images/img4.svg" alt="Picture 4">
+      </div>
+    </section>
+
+    <!-- big picture (hidden at start) -->
+    <div id="overlay">
+      <img id="bigImg" src="" alt="big picture">
+      <p>(click anywhere to close)</p>
+    </div>
+  </main>
+
+  <footer>Assignment #6 - jQuery | Student: Ali, Group: SE-2530</footer>
+
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/project.js"></script>
+</body>
+</html>
