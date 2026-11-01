@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 4 - Animations</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Part 1: Basics</a>
+    <a href="effects.html">Part 2: Effects</a>
+    <a href="dom.html">Part 3: DOM</a>
+    <a href="animations.html" class="active">Part 4: Animations</a>
+    <a href="project.html">Part 5: Mini Project</a>
+  </nav>
+
+  <main>
+    <h1>Part 4. Animations</h1>
+
+    <section>
+      <h2>Task 8. Basic Animation</h2>
+      <button id="animBtn">Animate</button>
+      <button id="resetBtn1">Reset</button>
+      <div class="stage"><div class="box" id="box1"></div></div>
+    </section>
+
+    <section>
+      <h2>Task 9. Sequential Animations</h2>
+      <p>move right, move down, shrink, return to original</p>
+      <button id="seqBtn">Start</button>
+      <div class="stage"><div class="box" id="box2"></div></div>
+    </section>
+
+    <section>
+      <h2>Task 10. Combined Animation</h2>
+      <p>opacity + size + movement in one .animate() call</p>
+      <button id="comboBtn">Animate</button>
+      <button id="resetBtn3">Reset</button>
+      <div class="stage"><div class="box" id="box3"></div></div>
+    </section>
+  </main>
+
+  <footer>Assignment #6 - jQuery | Student: Your Name, Group: Your Group</footer>
+
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/part4.js"></script>
+</body>
+</html>
